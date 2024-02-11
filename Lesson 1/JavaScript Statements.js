@@ -43,4 +43,4 @@ document.getElementById("demo").innerHTML = "Hello Dolly.";
 // return	             Exits a function
 // try	                 Implements error handling to a block of statements
 
-//* JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.
+//* JavaScript keywords are reserved words. Reserved words cannot be used as names for variables
