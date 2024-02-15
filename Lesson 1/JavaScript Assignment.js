@@ -2,7 +2,6 @@
 
 //* JavaScript Assignment Operators
 // Assignment operators assign values to JavaScript variables.
-
 /*
 Operator	Example	    Same As
 =	        x = y	    x = y
@@ -27,16 +26,13 @@ Operator	Example	    Same As
 
 //* The %= Operator
 // The Remainder Assignment Operator assigns a remainder to a variable.
-
 // Remainder Assignment Example
 let x = 10;
 x %= 5;
 
 //*The ??= Operator
 // The Nullish coalescing assignment operator is used between two values.
-
 // If the first value is undefined or null, the second value is assigned.
-
 // Nullish Coalescing Assignment Example
 let x;
 x ??= 5;

@@ -12,6 +12,7 @@ let car = cars[0];
 //* Changing an Array Element
 // This statement changes the value of the first element in cars:
 cars[0] = "Opel";
+
 Example;
 const cars = ["Saab", "Volvo", "BMW"];
 cars[0] = "Opel";
@@ -22,7 +23,6 @@ cars[0] = "Opel";
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo").innerHTML = fruits.toString();
-
 // Result:
 Banana, Orange, Apple, Mango;
 
@@ -58,6 +58,5 @@ const fruits = ["Banana", "Orange", "Apple"];
 fruits[fruits.length] = "Lemon"; // Adds "Lemon" to fruits
 
 //* The Difference Between Arrays and Objects
-// In JavaScript, arrays use numbered indexes.
-
-// In JavaScript, objects use named indexes.
+// - In JavaScript, arrays use numbered indexes.
+// - In JavaScript, objects use named indexes.

@@ -1,25 +1,17 @@
 //* JavaScript Let
-
 // The let keyword was introduced in ES6 (2015)
-
 // Variables declared with let have Block Scope
-
 // Variables declared with let must be Declared before use
-
 // Variables declared with let cannot be Redeclared in the same scope
 
 //* Block Scope
 // Before ES6 (2015), JavaScript did not have Block Scope.
-
 // JavaScript had Global Scope and Function Scope.
-
 // ES6 introduced the two new JavaScript keywords: let and const.
-
 // These two keywords provided Block Scope in JavaScript:
 
 // Example
 // Variables declared inside a { } block cannot be accessed from outside the block:
-
 {
   let x = 2;
 }
@@ -27,12 +19,10 @@
 
 //* Global Scope
 // Variables declared with the var always have Global Scope.
-
 // Variables declared with the var keyword can NOT have block scope:
 
 // Example
 // Variables declared with varinside a { } block can be accessed from outside the block:
-
 {
   var x = 2;
 }
@@ -40,11 +30,8 @@
 
 //* Cannot be Redeclared
 // Variables defined with let can not be redeclared.
-
 // You can not accidentally redeclare a variable declared with let.
-
 // With let you can not do this:
-
 let x = "John Doe";
 
 let x = 0;
@@ -85,10 +72,10 @@ let x = 10;
 
 //* Difference Between var, let and const
 /*
-        Scope	Redeclare	Reassign	Hoisted	    Binds this
-var	    No	    Yes	        Yes	        Yes	         Yes
-let	    Yes	    No	        Yes	        No	         No
-const	Yes	    No	        No	        No	         No
+        Scope	  Redeclare  	Reassign	    Hoisted	    Binds this
+var	    No	       Yes	      Yes	          Yes	         Yes
+let	    Yes	       No	        Yes	          No	         No
+const	  Yes	       No	        No	          No	         No
 */
 
 //* What is Good?
@@ -104,9 +91,7 @@ const	Yes	    No	        No	        No	         No
 // var binds to this.
 
 // Variables defined with let are also hoisted to the top of the block, but not initialized.
-
 // Meaning: Using a let variable before it is declared will result in a ReferenceError:
-
 // Example
 carName = "Saab";
 let carName = "Volvo";

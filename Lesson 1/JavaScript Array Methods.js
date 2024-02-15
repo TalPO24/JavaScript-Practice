@@ -5,11 +5,10 @@
 
 // Examples
 // Get the third element of fruits using at():
-
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fruit = fruits.at(2);
-// Get the third element of fruits using []:
 
+// Get the third element of fruits using []:
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fruit = fruits[2];
 
@@ -19,11 +18,9 @@ let fruit = fruits[2];
 //* JavaScript Array join()
 // The join() method also joins all array elements into a string.
 // It behaves just like toString(), but in addition you can specify the separator:
-
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo").innerHTML = fruits.join(" * ");
-
 // Result:
 Banana * Orange * Apple * Mango;
 
@@ -37,7 +34,6 @@ Banana * Orange * Apple * Mango;
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.pop();
-
 // The pop() method returns the value that was "popped out"
 
 //* JavaScript Array push()
@@ -45,7 +41,6 @@ fruits.pop();
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Kiwi");
-
 // The push() method returns the new array length
 
 //* Shifting Elements
@@ -56,7 +51,6 @@ fruits.push("Kiwi");
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.shift();
-
 // The shift() method returns the value that was "shifted out"
 
 //* JavaScript Array unshift()
@@ -64,7 +58,6 @@ fruits.shift();
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.unshift("Lemon");
-
 // The unshift() method returns the new array length
 
 //* Changing Elements
@@ -99,7 +92,6 @@ const myChildren = myGirls.concat(myBoys);
 
 //* JavaScript Array splice()
 // The splice() method can be used to add new items to an array:
-
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.splice(2, 0, "Lemon", "Kiwi");
@@ -107,16 +99,13 @@ fruits.splice(2, 0, "Lemon", "Kiwi");
 // The first parameter (2) defines the position where new elements should be added (spliced in).
 // The second parameter (0) defines how many elements should be removed.
 // The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.
-
 // The splice() method returns an array with the deleted items:
-
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.splice(2, 2, "Lemon", "Kiwi");
 
 //* Using splice() to Remove Elements
 // With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array:
-
 // Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.splice(0, 1);
@@ -128,15 +117,13 @@ fruits.splice(0, 1);
 //* JavaScript Array toSpliced()
 // ES2023 added the Array toSpliced() method as a safe way to splice an array without altering the original array.
 
-// The difference between the new toSpliced() method and the old splice() method is that the new method creates a // new array, keeping the original array unchanged, while the old method altered the original array.
-
+// The difference between the new toSpliced() method and the old splice() method is that the new method creates a new array, keeping the original array unchanged, while the old method altered the original array.
 // Example
 const months = ["Jan", "Feb", "Mar", "Apr"];
 const spliced = months.toSpliced(0, 1);
 
 //* JavaScript Array slice()
 // The slice() method slices out a piece of an array into a new array:
-
 // Example
 // Slice out a part of an array starting from array element 1 ("Orange"):
 
